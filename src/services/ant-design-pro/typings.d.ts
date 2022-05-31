@@ -2,6 +2,14 @@
 /* eslint-disable */
 
 declare namespace API {
+  type CountDownTime = {
+    targetName ?: string,
+    expirationDate?: string,
+    isMust?: boolean,
+    enableFlag?: number
+  }
+
+
   type CurrentUser = {
     name?: string;
     avatar?: string;

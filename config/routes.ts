@@ -49,6 +49,12 @@
     component: './TableList',
   },
   {
+    name: '个人时间',
+    icon: 'table',
+    path: '/my-time/count-down-time',
+    component: './MyTime/CountDownTime/index'
+  },
+  {
     path: '/',
     redirect: '/welcome',
   },
